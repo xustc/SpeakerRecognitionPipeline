@@ -1,0 +1,14 @@
+# configuration file
+
+TRAIN_DATA_PATH = './train/'
+TEST_DATA_PATH = './test/'
+
+SOFTMAX_TRAINING_EPOCH = 10
+TRIPLET_TRAINING_EPOCH = 15
+
+MODEL_TYPE = 'resCNN'
+FEATURE_TYPE = 'MFCC'
+
+
+
+
