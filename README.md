@@ -1,7 +1,7 @@
-# A Basic Speaker Recognition pipeline
+# A Basic Speaker Recognition Pipeline
 
 ## dataset
-In this pipeline I use THCHS-30 open dataset, you can get free access to it via 
+In this pipeline I use THCHS-30 open-source dataset, you can get free access to it via 
 http://openslr.org/18/
 
 For higher accuracy, try http://openslr.org/33/ and http://openslr.org/38/ with slight change of data pre-processing.
