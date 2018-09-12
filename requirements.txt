@@ -1,0 +1,8 @@
+numpy
+scipy
+sklearn
+python_speech_features
+tqdm
+onnx
+torch
+graphviz

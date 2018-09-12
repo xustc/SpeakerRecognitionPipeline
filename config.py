@@ -1,5 +1,6 @@
 # configuration file
 
+
 class Config(object):
     TRAIN_DATA_PATH = './data_thchs30/train'
     TEST_DATA_PATH = './data_thchs30/test'
@@ -28,6 +29,13 @@ class Config(object):
     GRU_LAYERS = 3
     NUM_CLASSES = 50
 
+    TEST_DATAPATH_1 = "./data_thchs30/test/mfcc/D11/"
+    TEST_DATAPATH_2 = "./data_thchs30/test/mfcc/D12/"
 
+    LOAD_PATH = "./checkpoints/" + MODEL_TYPE + '.pth'
+    # LOAD_PATH = "./checkpoints/" + MODEL_TYPE + '_tri.pth'
 
-
+    TRIPLET_LR = 0.05
+    TRIPLET_LR_DECAY = 0.003
+    TRIPLET_MOMENTUM = 0.9
+    TRIPLET_MARGIN = 0.1
